@@ -154,5 +154,276 @@
         "defaultValue": [""],
         "expectedValues": [""],
         "flags": [""]
+    },
+    "Device.WiFi.ApplyIgniteSettings": {
+        "elementType": ["bus_element_type_property"],
+        "type": [""],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.WiFi.EndPoint.1.Enable": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""]
+    },
+    "Device.WiFi.EndPoint.1.Status": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""]
+    },
+    "Device.WiFi.Ignite.LinkQualityThreshold": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""]
+    },
+    "Device.WiFi.Ignite.SubdocData": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""]
+    },
+    "Device.WiFi.EM.NaStaResponse": {
+        "elementType": ["bus_element_type_event"],
+        "type": [""],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.Enable": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["boolean"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.SC.Home.Enable": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["boolean"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.SC.Home.Detail.Enable": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["boolean"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.SC.Client.Enable": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["boolean"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.SC.Client.Detail.Enable": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["boolean"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.GC.Home.Enable": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["boolean"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.GC.Home.Detail.Enable": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["boolean"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.GC.Client.Enable": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["boolean"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.GC.Client.Detail.Enable": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["boolean"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.LQ.Home.Enable": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["boolean"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.LQ.Home.Detail.Enable": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["boolean"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.LQ.Client.Enable": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["boolean"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.LQ.Client.Detail.Enable": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["boolean"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.Diagnostic.Enable": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["boolean"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.LinkQualityFlags": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["unsignedInt"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.LinkQualityDuration": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["unsignedInt"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.SC.Home.Threshold": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["unsignedInt"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.SC.Client.Threshold": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["unsignedInt"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.GC.Home.Threshold": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["unsignedInt"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.GC.Client.Threshold": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["unsignedInt"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.LQ.Home.Threshold": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["unsignedInt"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.LQ.Client.Threshold": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["unsignedInt"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.SC.Client.Detail.WhitelistClientIds": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["string"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.GC.Client.Detail.WhitelistClientIds": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["string"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.LQ.Client.Detail.WhitelistClientIds": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["string"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.RFC_MASK": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["unsignedInt"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.Ignite.Enable": {
+        "elementType": ["bus_element_type_method"],
+        "arg": [""],
+        "argsType": [""],
+        "rangeArgs": [""],
+        "flags": [""],
+        "type": ["boolean"]
+    },
+    "Device.X_RDKCENTRAL-COM_WEI.ConfigChanged": {
+        "elementType": ["bus_element_type_event"],
+        "type": ["unsignedInt"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
     }
 }

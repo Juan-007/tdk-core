@@ -1,0 +1,36 @@
+{
+    "Device.DHCPv4.Client.{i}.": {
+        "NumberOfEntries": "",
+        "elementType": ["RBUS_ELEMENT_TYPE_TABLE"],
+        "table": "rbus_No_AddDelete",
+        "addOperation": "No",
+        "removeOperation": "No",
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.Events": {
+        "elementType": ["RBUS_ELEMENT_TYPE_PROPERTY"],
+        "type": [""],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.": {
+        "NumberOfEntries": "",
+        "elementType": ["RBUS_ELEMENT_TYPE_TABLE"],
+        "table": "rbus_No_AddDelete",
+        "addOperation": "No",
+        "removeOperation": "No",
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.Events": {
+        "elementType": ["RBUS_ELEMENT_TYPE_PROPERTY"],
+        "type": [""],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    }
+}

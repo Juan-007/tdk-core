@@ -1,0 +1,1317 @@
+{
+    "Device.DHCPv4.ClientNumberOfEntries": {
+        "ClientNumberOfEntries": "",
+        "table": "writableTable",
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.Enable": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.Alias": {
+        "type": ["string(64)"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.X_RDK_LinuxInterface": {
+        "type": ["string(256)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.X_CISCO_COM_BootFileName": {
+        "type": ["string(256)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.Interface": {
+        "type": ["string(256)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.Status": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["Disabled","Enabled","Error_Misconfigured","Error"],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.DHCPStatus": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["Init","Selecting","Requesting","Rebinding","Bound","Renewing"],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.Renew": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.X_RDK_Restart": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.X_RDK_Release": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.IPAddress": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.SubnetMask": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.IPRouters": {
+        "type": ["string(256)"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.DNSServers": {
+        "type": ["string(256)"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.LeaseTimeRemaining": {
+        "type": ["int"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["[-1:]"],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.DHCPServer": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.SentOptionNumberOfEntries": {
+        "SentOptionNumberOfEntries": "",
+        "table": "writableTable",
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.SentOption.{i}.Enable": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.SentOption.{i}.Alias": {
+        "type": ["string(64)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.SentOption.{i}.Tag": {
+        "type": ["unsignedInt"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["[1:254]"],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.SentOption.{i}.Value": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.ReqOptionNumberOfEntries": {
+        "ReqOptionNumberOfEntries": "",
+        "table": "writableTable",
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.ReqOption.{i}.Enable": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.ReqOption.{i}.Order": {
+        "type": ["unsignedInt"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["[1:]"],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.ReqOption.{i}.Alias": {
+        "type": ["string(64)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.ReqOption.{i}.Tag": {
+        "type": ["unsignedInt"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["[1:254]"],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Client.{i}.ReqOption.{i}.Value": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Server.PoolNumberOfEntries": {
+        "PoolNumberOfEntries": "",
+        "table": "writableTable",
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Enable": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.X_CISCO_COM_TimeOffset": {
+        "type": ["int"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Status": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["Disabled","Enabled","Error_Misconfigured","Error"],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Alias": {
+        "type": ["string(64)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Order": {
+        "type": ["unsignedInt"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["[1:]"],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Interface": {
+        "type": ["string(256)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.VendorClassID": {
+        "type": ["string(255)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.VendorClassIDExclude": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.VendorClassIDMode": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["Exact","Prefix","Suffix","Substring"],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.ClientID": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.ClientIDExclude": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.UserClassID": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.UserClassIDExclude": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Chaddr": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.ChaddrMask": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.ChaddrExclude": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.MinAddress": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.MaxAddress": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.ReservedAddresses": {
+        "type": ["string(512)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.SubnetMask": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.DNSServers": {
+        "type": ["string(64)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.DNSServersEnabled": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.DomainName": {
+        "type": ["string(64)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.IPRouters": {
+        "type": ["string(64)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.LeaseTime": {
+        "type": ["int"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["[-1:]"],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.StaticAddressNumberOfEntries": {
+        "StaticAddressNumberOfEntries": "",
+        "table": "dynWritableTable",
+        "addOperation": "Yes",
+        "removeOperation": "Yes",
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.StaticAddress.{i}.Enable": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.StaticAddress.{i}.Alias": {
+        "type": ["string(64)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.StaticAddress.{i}.Chaddr": {
+        "type": ["string(18)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.StaticAddress.{i}.Yiaddr": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.StaticAddress.{i}.X_CISCO_COM_DeviceName": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.StaticAddress.{i}.X_CISCO_COM_Comment": {
+        "type": ["string(255)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.OptionNumberOfEntries": {
+        "OptionNumberOfEntries": "",
+        "table": "writableTable",
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Option.{i}.Enable": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Option.{i}.Alias": {
+        "type": ["string(64)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Option.{i}.Tag": {
+        "type": ["unsignedInt"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["[1:254]"],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Option.{i}.Value": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.ClientNumberOfEntries": {
+        "ClientNumberOfEntries": "",
+        "table": "dynamicTable",
+        "addOperation": "No",
+        "removeOperation": "No",
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Client.{i}.Alias": {
+        "type": ["string(64)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Client.{i}.X_CISCO_COM_Comment": {
+        "type": ["string(256)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Client.{i}.X_CISCO_COM_Interface": {
+        "type": ["string(256)"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Client.{i}.X_CISCO_COM_HostName": {
+        "type": ["string(64)"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Client.{i}.ClassId": {
+        "type": ["string(64)"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Client.{i}.Chaddr": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Client.{i}.Active": {
+        "type": ["boolean"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Client.{i}.IPv4AddressNumberOfEntries": {
+        "IPv4AddressNumberOfEntries": "",
+        "table": "staticTable",
+        "addOperation": "No",
+        "removeOperation": "No",
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Client.{i}.IPv4Address.{i}.IPAddress": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Client.{i}.IPv4Address.{i}.LeaseTimeRemaining": {
+        "type": ["dateTime"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Client.{i}.IPv4Address.{i}.X_CISCO_COM_LeaseTimeCreation": {
+        "type": ["dateTime"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Client.{i}.OptionNumberOfEntries": {
+        "OptionNumberOfEntries": "",
+        "table": "staticTable",
+        "addOperation": "No",
+        "removeOperation": "No",
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Client.{i}.Option.{i}.Tag": {
+        "type": ["unsignedInt"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["[0:255]"],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.Pool.{i}.Client.{i}.Option.{i}.Value": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.ClientNumberOfEntries": {
+        "ClientNumberOfEntries": "",
+        "table": "writableTable",
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.Enable": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.Alias": {
+        "type": ["string(64)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.X_RDK_LinuxInterface": {
+        "type": ["string(256)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.Interface": {
+        "type": ["string(256)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.Status": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["Disabled","Enabled","Error_Misconfigured","Error"],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.DUID": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.RequestAddresses": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.RequestPrefixes": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.RapidCommit": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.Renew": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.X_RDK_Restart": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.X_RDK_Release": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.SuggestedT1": {
+        "type": ["int"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["[-1:]"],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.SuggestedT2": {
+        "type": ["int"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["[-1:]"],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.SupportedOptions": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.RequestedOptions": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.ServerNumberOfEntries": {
+        "ServerNumberOfEntries": "",
+        "table": "dynamicTable",
+        "addOperation": "No",
+        "removeOperation": "No",
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.Server.{i}.SourceAddress": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.Server.{i}.DUID": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.Server.{i}.InformationRefreshTime": {
+        "type": ["dateTime"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.SentOptionNumberOfEntries": {
+        "SentOptionNumberOfEntries": "",
+        "table": "writableTable",
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.SentOption.{i}.Enable": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.SentOption.{i}.Alias": {
+        "type": ["string(64)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.SentOption.{i}.Tag": {
+        "type": ["unsignedInt"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["[0:65535]"],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.SentOption.{i}.Value": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.ReceivedOptionNumberOfEntries": {
+        "ReceivedOptionNumberOfEntries": "",
+        "table": "dynamicTable",
+        "addOperation": "No",
+        "removeOperation": "No",
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.ReceivedOption.{i}.Tag": {
+        "type": ["unsignedInt"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["[0:65535]"],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.ReceivedOption.{i}.Value": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.ReceivedOption.{i}.Server": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Client.{i}.X_RDKCENTRAL-COM_RcvOption.MapTransportMode": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef FEATURE_SUPPORT_MAPT_NAT46"]
+    },
+    "Device.DHCPv6.Client.{i}.X_RDKCENTRAL-COM_RcvOption.MapBRPrefix": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef FEATURE_SUPPORT_MAPT_NAT46"]
+    },
+    "Device.DHCPv6.Client.{i}.X_RDKCENTRAL-COM_RcvOption.MapRuleIPv4Prefix": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef FEATURE_SUPPORT_MAPT_NAT46"]
+    },
+    "Device.DHCPv6.Client.{i}.X_RDKCENTRAL-COM_RcvOption.MapRuleIPv6Prefix": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef FEATURE_SUPPORT_MAPT_NAT46"]
+    },
+    "Device.DHCPv6.Client.{i}.X_RDKCENTRAL-COM_RcvOption.MapEALen": {
+        "type": ["unsignedInt"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef FEATURE_SUPPORT_MAPT_NAT46"]
+    },
+    "Device.DHCPv6.Client.{i}.X_RDKCENTRAL-COM_RcvOption.MapPSIDOffset": {
+        "type": ["unsignedInt"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef FEATURE_SUPPORT_MAPT_NAT46"]
+    },
+    "Device.DHCPv6.Client.{i}.X_RDKCENTRAL-COM_RcvOption.MapPSIDLen": {
+        "type": ["unsignedInt"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef FEATURE_SUPPORT_MAPT_NAT46"]
+    },
+    "Device.DHCPv6.Client.{i}.X_RDKCENTRAL-COM_RcvOption.MapPSID": {
+        "type": ["unsignedInt"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef FEATURE_SUPPORT_MAPT_NAT46"]
+    },
+    "Device.DHCPv6.Client.{i}.X_RDKCENTRAL-COM_RcvOption.MapIsFMR": {
+        "type": ["boolean"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef FEATURE_SUPPORT_MAPT_NAT46"]
+    },
+    "Device.DHCPv6.Client.{i}.X_RDKCENTRAL-COM_RcvOption.MapIpv4Address": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef FEATURE_SUPPORT_MAPT_NAT46"]
+    },
+    "Device.DHCPv6.Client.{i}.X_RDKCENTRAL-COM_RcvOption.MapRatio": {
+        "type": ["unsignedInt"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef FEATURE_SUPPORT_MAPT_NAT46"]
+    },
+    "Device.DHCPv6.Server.PoolNumberOfEntries": {
+        "PoolNumberOfEntries": "",
+        "table": "writableTable",
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Enable": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Status": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["Disabled","Enabled","Error_Misconfigured","Error"],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Alias": {
+        "type": ["string(64)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Order": {
+        "type": ["unsignedInt"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["[1:]"],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Interface": {
+        "type": ["string(256)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.DUID": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.DUIDExclude": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.VendorClassID": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.VendorClassIDExclude": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.UserClassID": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.UserClassIDExclude": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.SourceAddress": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.SourceAddressMask": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.SourceAddressExclude": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.IANAEnable": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.IANAManualPrefixes": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.IANAPrefixes": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.PrefixRangeBegin": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.PrefixRangeEnd": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.IAPDEnable": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.IAPDManualPrefixes": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.IAPDPrefixes": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.IAPDAddLength": {
+        "type": ["unsignedInt"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["[:64]"],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.X_RDKCENTRAL-COM_DNSServersEnabled": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.X_RDKCENTRAL-COM_DNSServers": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.ClientNumberOfEntries": {
+        "ClientNumberOfEntries": "",
+        "table": "dynamicTable",
+        "addOperation": "No",
+        "removeOperation": "No",
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Client.{i}.Alias": {
+        "type": ["string(64)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Client.{i}.SourceAddress": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Client.{i}.Active": {
+        "type": ["boolean"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Client.{i}.IPv6AddressNumberOfEntries": {
+        "IPv6AddressNumberOfEntries": "",
+        "table": "staticTable",
+        "addOperation": "No",
+        "removeOperation": "No",
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Client.{i}.IPv6Address.{i}.IPAddress": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Client.{i}.IPv6Address.{i}.PreferredLifetime": {
+        "type": ["dateTime"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Client.{i}.IPv6Address.{i}.ValidLifetime": {
+        "type": ["dateTime"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Client.{i}.IPv6PrefixNumberOfEntries": {
+        "IPv6PrefixNumberOfEntries": "",
+        "table": "staticTable",
+        "addOperation": "No",
+        "removeOperation": "No",
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Client.{i}.IPv6Prefix.{i}.Prefix": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Client.{i}.IPv6Prefix.{i}.PreferredLifetime": {
+        "type": ["dateTime"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Client.{i}.IPv6Prefix.{i}.ValidLifetime": {
+        "type": ["dateTime"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Client.{i}.OptionNumberOfEntries": {
+        "OptionNumberOfEntries": "",
+        "table": "staticTable",
+        "addOperation": "No",
+        "removeOperation": "No",
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Client.{i}.Option.{i}.Tag": {
+        "type": ["unsignedInt"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["[0:65535]"],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Client.{i}.Option.{i}.Value": {
+        "type": ["string"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.OptionNumberOfEntries": {
+        "OptionNumberOfEntries": "",
+        "table": "writableTable",
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Option.{i}.Enable": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Option.{i}.Alias": {
+        "type": ["string(64)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Option.{i}.Tag": {
+        "type": ["unsignedInt"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["[0:65535]"],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Option.{i}.Value": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.Pool.{i}.Option.{i}.PassthroughClient": {
+        "type": ["string(256)"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    }
+}

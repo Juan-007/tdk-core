@@ -1,0 +1,74 @@
+{
+    "Device.DHCPv4.ClientNumberOfEntries": {
+        "type": ["unsignedInt"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv4.Server.Enable": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv4.Server.StaticClientsData": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT","ifndef BCI"]
+    },
+    "Device.DHCPv4.Server.Lan": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT","ifndef BCI"]
+    },
+    "Device.DHCPv4.Server.PoolNumberOfEntries": {
+        "type": ["unsignedInt"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV4_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.ClientNumberOfEntries": {
+        "type": ["unsignedInt"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": [""]
+    },
+    "Device.DHCPv6.Server.Enable": {
+        "type": ["boolean"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.X_CISCO_COM_Type": {
+        "type": ["string"],
+        "writable": ["true"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": ["Stateful","Stateless"],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    },
+    "Device.DHCPv6.Server.PoolNumberOfEntries": {
+        "type": ["unsignedInt"],
+        "writable": ["false"],
+        "persistentSet": [""],
+        "defaultValue": [""],
+        "expectedValues": [""],
+        "flags": ["ifdef DHCPV6_SERVER_SUPPORT"]
+    }
+}
