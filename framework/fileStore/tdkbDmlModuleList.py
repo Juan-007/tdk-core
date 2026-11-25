@@ -44,7 +44,16 @@ NOTIFYCOMP=["eRT.com.cisco.spvtg.ccsp.notifycomponent"]
 MOCA=["eRT.com.cisco.spvtg.ccsp.moca"]
 
 # Components under LMLite module
-LMLITE=["eRT.com.cisco.spvtg.ccsp.lmlite", "LMLite"]
+LMLITE=["eRT.com.cisco.spvtg.ccsp.lmlite", "LMLite", "lmlite"]
+
+# Components under PSM module
+PSM=["rbusPsmSsp"]
+
+# Components under DHCP Manager module
+DHCPMANAGER=["eRT.com.cisco.spvtg.ccsp.dhcpmgr", "DHCPMANAGER"]
+
+# Components under Remote Debugger module
+REMOTEDEBUGGER=["rdkRrdRbus"]
 
 # Components under Test and diagnostics module
 TDM=["eRT.com.cisco.spvtg.ccsp.tdm", "TestAndDiagnosticsRbus", "WanCnctvtyChkEventConsumer", "WanCnctvtyChkTableConsumer"]
@@ -65,7 +74,7 @@ MTA=["eRT.com.cisco.spvtg.ccsp.mta"]
 VLANMANAGER=["eRT.com.cisco.spvtg.ccsp.vlanmanager"]
 
 # Components under Telemetry module
-TELEMETRY=["ccspinterface"]
+TELEMETRY=["telemetry2_0"]
 
 # Components under Inter Device Manager module
 IDM=["IDM_RBUS"]
@@ -82,10 +91,12 @@ CR=["com.cisco.spvtg.ccsp.CR"]
 rigidWritableTables = {
         "eRT.com.cisco.spvtg.ccsp.pam" : ["Device.IP.Interface.", "Device.DHCPv6.Server.Pool.", "Device.X_CISCO_COM_DDNS.Service.", \
                               "Device.Bridging.Filter.", "Device.X_CISCO_COM_GRE.Interface.", "Device.IP.Interface.{i}.IPv4Address.", \
-	                      "Device.DHCPv4.Client.{i}.SentOption.", "Device.DHCPv4.Server.Pool.{i}.Option.", \
-	                      "Device.DHCPv4.Client.{i}.ReqOption.", "Device.DHCPv6.Server.Pool.{i}.Option.", \
-	                      "Device.Bridging.Bridge.{i}.VLAN."],
-       "eRT.com.cisco.spvtg.ccsp.wanmanager" : ["Device.DHCPv4.Client.{i}.SentOption.", "Device.DHCPv4.Client.{i}.ReqOption."]
+                              "Device.DHCPv4.Client.{i}.SentOption.", "Device.DHCPv4.Server.Pool.{i}.Option.", \
+                              "Device.DHCPv4.Client.{i}.ReqOption.", "Device.DHCPv6.Server.Pool.{i}.Option.", \
+                              "Device.Bridging.Bridge.{i}.VLAN."],
+       "eRT.com.cisco.spvtg.ccsp.wanmanager" : ["Device.DHCPv4.Client.{i}.SentOption.", "Device.DHCPv4.Client.{i}.ReqOption."],
+       "eRT.com.cisco.spvtg.ccsp.dhcpmgr": ["Device.DHCPv4.Client.{i}.SentOption.", "Device.DHCPv4.Client.{i}.ReqOption.", \
+        "Device.DHCPv4.Server.Pool.{i}.Option.", "Device.DHCPv6.Client.{i}.SentOption.", "Device.DHCPv6.Server.Pool.{i}.Option."]
                       }
 
 #########################EXPECTED RETURN CODES#########################
@@ -131,3 +142,4 @@ DeleteStaticTableRowWebpaReturnMsg = "Invalid parameter name"
 # Delete row from a dynamicTable using WEBPA
 DeleteDynamicTableRowWebpaReturnCode = "520"
 DeleteDynamicTableRowWebpaReturnMsg = "Invalid parameter name"
+
